@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>AI基础入门</title>
+      <link href="/2020/06/08/20200608_ai_ji_chu_ru_men/"/>
+      <url>/2020/06/08/20200608_ai_ji_chu_ru_men/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AI基础入门"><a href="#AI基础入门" class="headerlink" title="AI基础入门"></a>AI基础入门</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><ul><li>清华园地址：<a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&amp;O=D" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&amp;O=D</a></li><li>验证模块按照成功方法：<br>  Anaconda -V<br>  Python -V<br>  Jupyter notebook<br>  import numpy –&gt; numpy.<strong>version</strong><br>  import matplotlib –&gt; matplotlib.<strong>version</strong></li></ul><h2 id="numpy常用方法"><a href="#numpy常用方法" class="headerlink" title="numpy常用方法"></a>numpy常用方法</h2><ul><li>numpy模块下的若干函数用法：<br>  np.array（自定义元素，逗号间隔）生成自定义数组；<br>  np.arange（起始数，终止数不包含，步长正数）随机生成数组，元组；<br>  shape显示元素个数<br>  reshape重定义矩阵<br>  np.zeros（矩阵行列），np.ones（矩阵行列）初始化两个特殊函数<br>  np.random.randint（起始数，终止数不包含，矩阵行列）随机生成矩阵数组<br>  np.linspace（起始数，终止数，元素个数）生成等差数列<br>  np.dot (数组1，数组2) 两个数字相乘<br>  np.matmul (数组1，数组2) 两个数字相乘</li><li>数组的加减乘除，对位运算；</li><li>数组的切片操作，数组[切片行，切片列]；</li><li>数组常用标准函数<br>  arr.max ( )<br>  arr.min ( )<br>  arr.mean ( )<br>  arr.argmax ( )<br>  arr.argmi ( )<br>  arr.std ( )<br>  arr.var ( )</li></ul><h2 id="matplotlib常用法"><a href="#matplotlib常用法" class="headerlink" title="matplotlib常用法"></a>matplotlib常用法</h2><ul><li>matplotlib库包括子模组：</li><li>matplotlib.pyplot二维画图模块；</li><li>mpl_toolkits.mplot3d三维图像绘画模块；</li><li>画图需要先生成数据；</li><li>x,y=np.mashgrid(x,y)</li></ul><h2 id="逻辑回归算法"><a href="#逻辑回归算法" class="headerlink" title="逻辑回归算法"></a>逻辑回归算法</h2><ul><li>历史数据—（学习）—规律—（预测）—未来</li><li>特征，标签</li></ul><h2 id="代码实战"><a href="#代码实战" class="headerlink" title="代码实战"></a>代码实战</h2><h2 id="神经网络和深度学习扩展"><a href="#神经网络和深度学习扩展" class="headerlink" title="神经网络和深度学习扩展"></a>神经网络和深度学习扩展</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电工常识</title>
+      <link href="/2020/06/03/20200603_dian_gong_chang_shi/"/>
+      <url>/2020/06/03/20200603_dian_gong_chang_shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="电工常识"><a href="#电工常识" class="headerlink" title="电工常识"></a>电工常识</h1><h2 id="已知线径求承载电流"><a href="#已知线径求承载电流" class="headerlink" title="已知线径求承载电流"></a>已知线径求承载电流</h2><ul><li>十下五，百上二，二五三五四三界；七零九五二倍半；裸线加一半；铜线升级算；穿管温度八九折；</li><li>基础安全电流：十平方以下含十乘以5；16、25平方乘4；35，50乘以3；70，95乘2.5；一百以上乘2；</li><li>实际承载电流：铜缆升级算，基础安全电流乘以0.8；</li></ul><h2 id="已知负载求线径及传输距离"><a href="#已知负载求线径及传输距离" class="headerlink" title="已知负载求线径及传输距离"></a>已知负载求线径及传输距离</h2><ul><li>计算电流：公式法，$P=\sqrt[2]{3}UIcos\theta$,$cos\theta$为功率因数，常取0.85；估算法：2A/KW；</li><li>启动电流=1.5 * 计算电流；</li><li>方法一：压降允许使用距离：$\Delta U=\frac{PL}{AS}$;P功率；L长度；A材质系数，铜77，铝46；S电缆截面积；</li><li>方法二：$\Delta U = 2IR$;$I=\frac{P}{1.732U cos\theta}$;$R=\frac{0.018L}{s}$</li></ul><h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h2><ul><li>A相，黄色，第一相；B相，绿色，第二相；C相，红色，第三相；N,零线，蓝色；PE，地线，黄绿色；</li><li>线电压：380V，火火；相电压：220V，火零；</li><li>交流接触器，初始状态为敞开，主回路为220V/380V，线圈回路为220V/380V等，参看产品说明；</li><li>单相电机接线，先接启动电容；三相电机三根线取两个电阻最大的接启动电容；剩下的接零线；</li><li>电线载流量和漏保开关关系</li></ul><table><thead><tr><th align="center">电线</th><th align="center">载流量</th><th align="center">功率</th><th align="center">开关/漏保</th></tr></thead><tbody><tr><td align="center">$1mm^2$</td><td align="center">6A-8A</td><td align="center">1.3KW-1.7KW</td><td align="center">C10</td></tr><tr><td align="center">$1.5mm^2$</td><td align="center">8A-15A</td><td align="center">1.7KW-3.3KW</td><td align="center">C16/C10</td></tr><tr><td align="center">$2.5mm^2$</td><td align="center">16A-25A</td><td align="center">3.5KW-5.5KW</td><td align="center">C25/C16</td></tr><tr><td align="center">$4mm^2$</td><td align="center">15A-32A</td><td align="center">5.5KW-7KW</td><td align="center">C32/C25</td></tr><tr><td align="center">$6mm^2$</td><td align="center">32A-40A</td><td align="center">7KW-8.8KW</td><td align="center">C40/C32</td></tr><tr><td align="center">$10mm^2$</td><td align="center">40A-65A</td><td align="center">8.8KW-14.3KW</td><td align="center">C63/C40</td></tr></tbody></table>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>photoshop常用快捷键</title>
       <link href="/2020/05/24/20200524photoshop_chang_yong_kuai_jie_jian/"/>
       <url>/2020/05/24/20200524photoshop_chang_yong_kuai_jie_jian/</url>
