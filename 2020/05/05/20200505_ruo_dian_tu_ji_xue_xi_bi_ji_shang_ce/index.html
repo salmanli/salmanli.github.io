@@ -1,0 +1,1163 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="弱电图集学习笔记（上册）, 建筑智能化 建筑电气 建筑风水 系统集成 弱电">
+    <meta name="description" content="每次阅读都有新的收获~">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>弱电图集学习笔记（上册） | Black C</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
+<meta name="generator" content="Hexo 4.1.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Black C</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Black C</div>
+        <div class="logo-desc">
+            
+            夹生胖子
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">弱电图集学习笔记（上册）</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%BB%BA%E7%AD%91%E6%99%BA%E8%83%BD%E5%8C%96/">
+                                <span class="chip bg-color">建筑智能化</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">读书笔记</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%EF%BC%8C%E5%9B%BE%E9%9B%86/">
+                                <span class="chip bg-color">理论基础，图集</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%BB%BA%E7%AD%91%E6%99%BA%E8%83%BD%E5%8C%96/" class="post-category">
+                                建筑智能化
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-05-05
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2020-05-07
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    2.4k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    8 分
+                </div>
+                
+				
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+            
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="《智能建筑弱电工程设计与施工》09X700"><a href="#《智能建筑弱电工程设计与施工》09X700" class="headerlink" title="《智能建筑弱电工程设计与施工》09X700"></a>《智能建筑弱电工程设计与施工》09X700</h1><h2 id="总说明"><a href="#总说明" class="headerlink" title="总说明"></a>总说明</h2><h3 id="常用设计规范"><a href="#常用设计规范" class="headerlink" title="常用设计规范"></a>常用设计规范</h3><ul>
+<li>《智能建筑设计标准》GB50314</li>
+<li>《火灾自动报警设计规范》GB50116</li>
+<li>《火灾自动报警系统施工及验收规范》GB50166</li>
+<li>《电子信息系统机房设计规范》GB50174</li>
+<li>《电子信息系统机房施工及验收规范》GB50462</li>
+<li>《综合布线系统工程设计规范》GB50311</li>
+<li>《综合布线系统工程验收规范》GB50312</li>
+<li>《建筑物电子信息系统防雷技术规范》GB50343</li>
+<li>《安全防范工程技术规范》GB50348</li>
+<li>《入侵报警系统工程设计规范》GB50394</li>
+<li>《视频安防监控系统工程设计规范》GB50395</li>
+<li>《出入口控制系统工程设计规范》GB50396</li>
+<li>《视频显示系统工程技术规范》GB50464</li>
+<li>《厅堂扩声系统设计规范》GB50371</li>
+<li>《民用建筑电气设计规范》JGJ16</li>
+</ul>
+<h3 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h3><ul>
+<li>弱电（智能化）：主要包括房屋建筑的智能化集成系统（IIS）、信息设施系统（ITSI）、信息化应用系统（ITAS）、建筑设备管理系统（BMS）、公共安全系统（PSS）、机房工程和建筑环境等；</li>
+<li>IIS：IBMS</li>
+<li>ITIS：通讯接入系统、电话交换系统、信息网络系统、综合布线系统、室内移动通信覆盖系统、卫星通信系统、有线电视及卫星电视系统、广播系统、会议系统、信息引导及发布系统、时钟系统和其他相关通信系统；</li>
+<li>ITAS：工作业务应用系统、物业运营管理系统、公共服务管理系统、公共信息服务系统、智能卡应用系统、信息网络安全管理系统等其他业务功能所需要的应用系统；</li>
+<li>BMS：BA</li>
+<li>PSS：火灾自动报警系统、安全技术防范系统和应急联动系统； </li>
+</ul>
+<h2 id="消防"><a href="#消防" class="headerlink" title="消防"></a>消防</h2><h3 id="专项设计规范"><a href="#专项设计规范" class="headerlink" title="专项设计规范"></a>专项设计规范</h3><ul>
+<li>《建筑设计防火规范》GB50016</li>
+<li>《高层民用建筑设计防火规范》GB50045</li>
+</ul>
+<h3 id="火灾探测器的选用与设置"><a href="#火灾探测器的选用与设置" class="headerlink" title="火灾探测器的选用与设置"></a>火灾探测器的选用与设置</h3><ul>
+<li>特级和一级保护对象采用全面防护，二级保护对象采用重点保护；</li>
+<li>酒店、商业、办公优先选用点式广电感烟探测器；黑烟较多场合使用离子感烟探测器；</li>
+<li>高达空间场所宜选用红外光束感烟探测器；</li>
+<li>需要联动控制场所，应选用两种或两种以上探测器“相与”控制灭火；（两种探测器技术不同）</li>
+<li>报警准确率较高场所应使用复合探测器；</li>
+<li>地下车库可选用非地址码探测器或几个探测器合用一个地址码；</li>
+<li>自动探测器区域均需设置手报按钮和应急广播；</li>
+<li>防火分区任何区域到最近的手报按钮不得大于30米；火灾手报按钮不需与消防栓按钮成套配置；</li>
+</ul>
+<h3 id="可燃气体探测器的设置"><a href="#可燃气体探测器的设置" class="headerlink" title="可燃气体探测器的设置"></a>可燃气体探测器的设置</h3><ul>
+<li>老人专用厨房应设置可燃气体探测装置；</li>
+<li>防爆场所需配置防爆产品；安装高度与检测的燃气比重相关；</li>
+<li>可燃气体探测器不应安装在强气流通过的位置；</li>
+<li>可燃气体探测器工作时宜单独供电，且不宜取自报警系统控制回路电源；</li>
+<li>消防电梯内应设置消防电话；</li>
+<li>可燃气体报警达到爆炸下限的25%开始报警，浓度低于设定值，报警信号自动取消；</li>
+</ul>
+<h3 id="气体灭火系统"><a href="#气体灭火系统" class="headerlink" title="气体灭火系统"></a>气体灭火系统</h3><ul>
+<li>七氟丙烷设计灭火浓度8%-12%；存储压力有2.5MPa和4.2MPa；</li>
+</ul>
+<h2 id="安防"><a href="#安防" class="headerlink" title="安防"></a>安防</h2><h3 id="专项设计规范-1"><a href="#专项设计规范-1" class="headerlink" title="专项设计规范"></a>专项设计规范</h3><ul>
+<li>《安全防范系统通用图形符号》GA/T74</li>
+<li>《安全防范系统供电技术要求》GB15408</li>
+</ul>
+<h3 id="设防区域和部位"><a href="#设防区域和部位" class="headerlink" title="设防区域和部位"></a>设防区域和部位</h3><ul>
+<li>周界：广场、建筑外围墙、地面层、顶层、建筑单体/群体外层等；</li>
+<li>出入口：建筑周界入口、地面层出入口、通道出入口等</li>
+<li>通道：周界内主要通道、门厅大堂、内部通道、电梯厅、扶梯口等；</li>
+<li>公共区域：功能转换厅、避难层、公共场所等；</li>
+<li>重要部位：机房、财务室、库房等；</li>
+</ul>
+<h3 id="入侵报警系统"><a href="#入侵报警系统" class="headerlink" title="入侵报警系统"></a>入侵报警系统</h3><ul>
+<li><table>
+<thead>
+<tr>
+<th align="center">控制器与探测器之间距离</th>
+<th align="center">组网形式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">不大于100米</td>
+<td align="center">分线制</td>
+</tr>
+<tr>
+<td align="center">不大于1500米</td>
+<td align="center">总线制</td>
+</tr>
+<tr>
+<td align="center">大于1500米</td>
+<td align="center">公共网络模式</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>通用型公共建筑，应配置周界报警，一层和顶层重要房间配置入侵探测器，财务室应设置紧急按钮；</p>
+</li>
+<li><p>每个周界防区独立长度不宜大于200米；</p>
+</li>
+<li><p>独立防区紧急报警装置数量不大于4个；</p>
+</li>
+<li><p>探测器最远警戒距离不大于标称距离的2/3；</p>
+</li>
+</ul>
+<h3 id="视频安防监控系统"><a href="#视频安防监控系统" class="headerlink" title="视频安防监控系统"></a>视频安防监控系统</h3><ul>
+<li>摄像机距地安装高度，室内不低于2.5米，室外不低于3.5米；</li>
+</ul>
+<h3 id="出入口控制系统"><a href="#出入口控制系统" class="headerlink" title="出入口控制系统"></a>出入口控制系统</h3><ul>
+<li>读卡器距地高度不宜高于1.5米；</li>
+</ul>
+<h3 id="停车场管理系统"><a href="#停车场管理系统" class="headerlink" title="停车场管理系统"></a>停车场管理系统</h3><ul>
+<li>500辆及以上停车场提供车辆查询服务；</li>
+</ul>
+<h3 id="传输线缆的选择及敷设"><a href="#传输线缆的选择及敷设" class="headerlink" title="传输线缆的选择及敷设"></a>传输线缆的选择及敷设</h3><ul>
+<li>报警信号传输线耐压应不低于AC250V；</li>
+<li>穿管敷设最小线径1.00平方毫米，线槽敷设最小线径0.75平方毫米；多芯电缆单股最小截面积不小与0.5平方毫米；</li>
+<li>电压高于DC48V或AC36V或电流强度大于16A的供电线路需单独穿管敷设；</li>
+<li>报警主机至前端线缆可选用RVV线缆；</li>
+</ul>
+<h3 id="术语-1"><a href="#术语-1" class="headerlink" title="术语"></a>术语</h3><ul>
+<li>安全防范系统（SPS）</li>
+<li>安全防范系统工程（ESPS）</li>
+<li>入侵报警系统（IAS）</li>
+<li>视频安防监控系统（VSCS）</li>
+<li>出入口控制系统（ACS）</li>
+<li>安全管理系统（SMS）</li>
+</ul>
+<h3 id="常用执行设备技术参数"><a href="#常用执行设备技术参数" class="headerlink" title="常用执行设备技术参数"></a>常用执行设备技术参数</h3><ul>
+<li>电控锁安装位置距地90-110cm，配合机械锁；</li>
+<li>小区大门、院门等人车混流通道，不宜选用闭合时间小于3S的产品，应有防砸措施；</li>
+</ul>
+<h2 id="监控"><a href="#监控" class="headerlink" title="监控"></a>监控</h2><ul>
+<li>图集中的监控系统指的是建筑设备监控系统（Building Automation System,BAS）.</li>
+<li>模拟量传输线缆应选用屏蔽线缆，且中间不应有接头。避免干扰，保证检测精度。</li>
+<li>DI：数字开关量输入，中间继电器常开无源触点；</li>
+<li>DO：数字开关量输出，24V继电器线圈或常开无源触点；</li>
+<li>AI：模拟量输入，标准0 ~ 10V、0/4 ~ 20mA或电阻型信号输入；</li>
+<li>AO：模拟量输出，标准0 ~ 10V或0/4 ~ 20mA信号输出；</li>
+</ul>
+<h3 id="控制范围"><a href="#控制范围" class="headerlink" title="控制范围"></a>控制范围</h3><ul>
+<li>冷源：冷冻水、冷却水系统；冷却水塔；</li>
+<li>热源：锅炉、城市供暖、热交换系统；</li>
+<li>空调：空调、新排风系统；</li>
+<li>给排水：生活水泵房、消防水泵房、集水井；</li>
+<li>供配电系统：区域回路开关控制及状态监测；只监不控；</li>
+<li>公共照明系统：给照明控制箱控制信号；</li>
+<li>电梯及自动扶梯系统：只监不控；</li>
+<li>接口系统：消防、安防；</li>
+</ul>
+<h3 id="网络结构"><a href="#网络结构" class="headerlink" title="网络结构"></a>网络结构</h3><ul>
+<li><table>
+<thead>
+<tr>
+<th align="center">系统规模</th>
+<th align="center">控制点数</th>
+<th align="center">网络架构</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">小型系统</td>
+<td align="center">1000以下</td>
+<td align="center">现场层</td>
+</tr>
+<tr>
+<td align="center">中型系统</td>
+<td align="center">1000~3000</td>
+<td align="center">管理层，现场层</td>
+</tr>
+<tr>
+<td align="center">大型系统</td>
+<td align="center">3000以上</td>
+<td align="center">管理层，控制层，现场层</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h3 id="设计要点"><a href="#设计要点" class="headerlink" title="设计要点"></a>设计要点</h3><ul>
+<li>管理网络层：数据存储、分析、报表、打印。C/S和B/S架构并存；设计点位预留不能小于10%；</li>
+<li>控制网络层：常用控制协议（TCP/IP、BACnet、LonTalk、MeterBus、ModBus）;控制器（DDC/PLC/HC）；每台控制器控制点数小于256个（防止接口模块过多）；</li>
+<li>现场网络层：控制器与仪表一对一连线；</li>
+<li>常用控制线缆：RVV 2 * 0.75;RVV 4 * 0.75;RVVP 2 * 0.75;RVVP 4 * 0.75;</li>
+</ul>
+<h2 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h2><ul>
+<li><p>中继线：用户线 X 单机话务量 X 出具话务量比例/中继线话务量；</p>
+</li>
+<li><p>中继电路数量：中继线/30</p>
+</li>
+<li><p>2000门以下用户电话与公用电话网中继线和中继电路数量关系：</p>
+</li>
+<li><table>
+<thead>
+<tr>
+<th align="center">用户线（门）</th>
+<th align="center">中继线（条）</th>
+<th align="center">中继电路（条）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">100以下</td>
+<td align="center">15</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">300</td>
+<td align="center">45</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">500</td>
+<td align="center">75</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">1000</td>
+<td align="center">150</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">1500</td>
+<td align="center">225</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="center">2000</td>
+<td align="center">300</td>
+<td align="center">10</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><ul>
+<li>内外网设备物理隔离间距至少1米；</li>
+</ul>
+<h2 id="布线"><a href="#布线" class="headerlink" title="布线"></a>布线</h2><ul>
+<li>机架或机柜前面的净空不应小于800，后面的净空不应小于600；</li>
+<li>壁挂式配线设备离地高度不宜小于300；</li>
+<li>国际防护（IP）定级：固体防护等级0 ~ 6；液体防护等级0 ~ 8；</li>
+</ul>
+<h2 id="有线电视"><a href="#有线电视" class="headerlink" title="有线电视"></a>有线电视</h2><ul>
+<li>《有线电视网络工程设计标准》GB/T50200</li>
+<li>数字电视用户电平设计值：56$\pm$4dB$\mu$V；模拟电视频道用户电平设计值：66$\pm$4dB$\mu$V;</li>
+<li>单项系统用两屏蔽电缆，双向系统用四屏蔽电缆；</li>
+<li>前端设备需要3 ~ 5个19in的机柜内；</li>
+<li>天际线仰角：水平线和障碍物线的夹角；</li>
+<li>卫星接收天线的仰角必须大于天际线仰角5度;</li>
+<li>卫星接收天线与接收机房之间的距离为5 ~ 15米，最远不宜超过30米；</li>
+<li>卫星天线支座固定点有三脚/四脚/五脚，其中两脚设在最大来风方向；</li>
+<li>中星9号Ku波段北/广/哈南偏西，乌鲁木齐南偏东；</li>
+</ul>
+<h2 id="广播"><a href="#广播" class="headerlink" title="广播"></a>广播</h2><ul>
+<li>两线制/三线制广播；</li>
+<li>办公室/生活间/客房采用1 ~ 3W扬声器；走廊/门厅及公共场所宜采用3 ~ 5W扬声器；</li>
+<li>广播线路计算公式：L=$\frac{q \cdot n \cdot U^2}{0.035 \times （100-n） \cdot W}$</li>
+</ul>
+<h2 id="会议"><a href="#会议" class="headerlink" title="会议"></a>会议</h2><ul>
+<li>宜设置会议系统场景：听众至讲台距离大于10米；容积大于1000立方米；对声压级要求较高场所；</li>
+<li>扩声系统功率储备语言3 ~ 5倍；音乐6 ~ 8倍；专业演出8倍以上；</li>
+</ul>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://www.lsxec.com" rel="external nofollow noreferrer">Nick</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://www.lsxec.com/2020/05/05/20200505_ruo_dian_tu_ji_xue_xi_bi_ji_shang_ce/">https://www.lsxec.com/2020/05/05/20200505_ruo_dian_tu_ji_xue_xi_bi_ji_shang_ce/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="https://www.lsxec.com" target="_blank">Nick</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%BB%BA%E7%AD%91%E6%99%BA%E8%83%BD%E5%8C%96/">
+                                    <span class="chip bg-color">建筑智能化</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">读书笔记</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%EF%BC%8C%E5%9B%BE%E9%9B%86/">
+                                    <span class="chip bg-color">理论基础，图集</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '5543b94ee48b137e896c',
+        clientSecret: 'eab589741526f90cd1996956242ad440ae5533c0',
+        repo: 'gitalk',
+        owner: 'salmanli',
+        admin: "salmanli",
+        id: '2020-05-05T10-42-21',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/05/07/20200507_go_yu_yan_shi_zhan_xue_xi_bi_ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="《GO语言实战》学习笔记">
+                        
+                        <span class="card-title">《GO语言实战》学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            一个最近流行不适合新手学习的内容，对于我这个非软件开发专业的人，不知道是图新鲜凑热点，还是真能有所领悟~~~
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-07
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Nick
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/04/19/20200419_pu_tao_jiu_de_gu_shi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="葡萄酒的故事">
+                        
+                        <span class="card-title">葡萄酒的故事</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            《葡萄酒的故事》 休.约翰逊前言
+《游艇会的午宴》 雷诺阿 油画 1881年
+酒神巴克斯
+
+第一章 排解烦恼的力量第二章 第一次踩葡萄
+马拉尼=酒窖
+奎弗瑞，发酵葡萄酒的容器
+渣渣酒，格拉巴酒，一种用酒渣酿制的白兰地
+野生葡萄雌雄同株很少，
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-19
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Nick
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+    
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="https://www.lsxec.com" target="_blank">Nick</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">24.9k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+    <a href="mailto:mp13913929936@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+    <a href="nicklsx" class="tooltipped" target="_blank" data-tooltip="关注我的Twitter: nicklsx" data-position="top" data-delay="50">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=8568166" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 8568166" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
