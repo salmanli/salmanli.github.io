@@ -361,21 +361,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-08
+                    2020-06-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    343
+                    546
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 				
@@ -411,6 +411,12 @@
 <h2 id="逻辑回归算法"><a href="#逻辑回归算法" class="headerlink" title="逻辑回归算法"></a>逻辑回归算法</h2><ul>
 <li>历史数据—（学习）—规律—（预测）—未来</li>
 <li>特征，标签</li>
+<li>损失函数：L=-yloga-(1-y)log(1-a);数学模型；</li>
+<li>偏置项：起始的预值。可以是负值，也可以是0.</li>
+<li>y真实值，a预测值，y,a差距越小越有效；</li>
+<li>作用：<br>  建立y,a之间的联系；通过数学模型建立；<br>  衡量a,y之间的差距；<br>  通过a,y之间的差距倒推权重值</li>
+<li>归一化<br>  公式1：$x^’=frac{x-x_min}{x_max-x_min}$;$x^’$属于[0，1];<br>  公式2：$x^’=frac{x-u}{\sigma}$;u为均值，$\sigma$标准差；$x^’$属于(0,1);</li>
+<li>数据处理步骤：<br>  1.归一化，将数据归纳到0到1之间；<br>  2.初始化权重；<br>  3.激活函数：$a=\sigma(Z)$<br>  4.建立损失函数：L=-yloga-(1-y)log(1-a)<br>  5.梯度下降：新的权重值=旧的权重值-学习率 * 梯度<br>  6.模型预测</li>
 </ul>
 <h2 id="代码实战"><a href="#代码实战" class="headerlink" title="代码实战"></a>代码实战</h2><h2 id="神经网络和深度学习扩展"><a href="#神经网络和深度学习扩展" class="headerlink" title="神经网络和深度学习扩展"></a>神经网络和深度学习扩展</h2>
             </div>
@@ -539,32 +545,40 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/08/20200608_ai_ji_chu_ru_men/">
+                <a href="/2020/06/13/20200613_tuo_kou_xiu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="AI基础入门">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="脱口秀">
                         
-                        <span class="card-title">AI基础入门</span>
+                        <span class="card-title">脱口秀</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            AI基础入门环境准备
-清华园地址：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&amp;O=D
-验证模块按照成功方法：  Anaconda -V  Python -V 
+                            好词好句
+有趣的灵魂千姿百态；
+言简意赅是智慧的灵魂；
+喜剧是潜藏在痛苦里的事情；
+
+
+名词解释
+One-liner:一句话笑话；
+演技之父：斯坦尼斯拉夫斯基；抽象是艺术的思路——斯坦尼斯拉夫斯基；
+
+脱口秀秘诀
+笑话由两部分组成：铺垫和笑
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -573,7 +587,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -769,7 +782,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25.6k</span>&nbsp;字
+                class="white-color">26.7k</span>&nbsp;字
             
             
             
