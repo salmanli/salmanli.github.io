@@ -388,21 +388,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-11-18
+                    2020-11-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    843
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 				
@@ -443,24 +443,18 @@
 <h2 id="第2章-Python基础知识"><a href="#第2章-Python基础知识" class="headerlink" title="第2章 Python基础知识"></a>第2章 Python基础知识</h2><h3 id="1-名词解释"><a href="#1-名词解释" class="headerlink" title="1.名词解释"></a>1.名词解释</h3><ul>
 <li>IDE：Integrated Development Environment，集成开发环境。</li>
 </ul>
-<h3 id="2-基本概念"><a href="#2-基本概念" class="headerlink" title="2.基本概念"></a>2.基本概念</h3><ul>
-<li><p>2.1 数<br>  int:整数；<br>  float:浮点数；</p>
-</li>
-<li><p>2.2 变量<br>  变量：即变化的量，可以把它理解成一个容器，存储数据；变量区分大小写；</p>
-</li>
-<li><p>2.3 变量命名原则：</p>
-<ul>
+<h3 id="2-基本概念"><a href="#2-基本概念" class="headerlink" title="2.基本概念"></a>2.基本概念</h3><h4 id="2-1-数"><a href="#2-1-数" class="headerlink" title="2.1 数"></a>2.1 数</h4><ul>
+<li>int:整数；</li>
+<li>float:浮点数；</li>
+</ul>
+<h4 id="2-2-变量"><a href="#2-2-变量" class="headerlink" title="2.2 变量"></a>2.2 变量</h4><p>变量：即变化的量，可以把它理解成一个容器，存储数据；变量区分大小写；</p>
+<h4 id="2-3-变量命名原则："><a href="#2-3-变量命名原则：" class="headerlink" title="2.3 变量命名原则："></a>2.3 变量命名原则：</h4><ul>
 <li>变量名必须以字母或下画线开始，名字中间只能由字母、数字和下画线组成。</li>
 <li>变量名的长度不得超过255个字符。</li>
 <li>变量名在有效的范围内必须是唯一的。</li>
 <li>变量名不能是Python中的关键词。</li>
 </ul>
-</li>
-</ul>
-<ul>
-<li>2.4 Python的关键词</li>
-</ul>
-<table>
+<h4 id="2-4-Python的关键词"><a href="#2-4-Python的关键词" class="headerlink" title="2.4 Python的关键词"></a>2.4 Python的关键词</h4><table>
 <thead>
 <tr>
 <th align="center"></th>
@@ -518,30 +512,41 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
-<ul>
-<li><p>2.5 数据类型</p>
-<ul>
+<h4 id="2-5-数据类型"><a href="#2-5-数据类型" class="headerlink" title="2.5 数据类型"></a>2.5 数据类型</h4><ul>
 <li>type 查看数据类型</li>
 </ul>
-</li>
-<li><p>2.6 输出于输出格式设置</p>
-<ul>
+<h4 id="2-6-输出于输出格式设置"><a href="#2-6-输出于输出格式设置" class="headerlink" title="2.6 输出于输出格式设置"></a>2.6 输出于输出格式设置</h4><ul>
 <li>print </li>
 <li>str.format </li>
 <li>一对一填充；一对多填充；</li>
 <li>浮点数设置： .2f</li>
 <li>百分数设置： .2%</li>
 </ul>
-</li>
-<li><p>2.7 缩进与注释</p>
-<ul>
+<h4 id="2-7-缩进与注释"><a href="#2-7-缩进与注释" class="headerlink" title="2.7 缩进与注释"></a>2.7 缩进与注释</h4><ul>
 <li>单行注释#</li>
 <li>多行注释，多个#；’’’;”””;</li>
 </ul>
-</li>
-<li><p>2.8 字符串</p>
-</li>
+<h4 id="2-8-字符串"><a href="#2-8-字符串" class="headerlink" title="2.8 字符串"></a>2.8 字符串</h4><ul>
+<li>字符串可以用 + 直接连接；</li>
+<li>字符串的复制可以用 * N ，N为重复的次数；</li>
+<li>获取字符串的长度采用len函数；</li>
+<li>字符串的查找：in , not in , find;</li>
+<li>切片索引：[3]显示第4个；[:3]显示自己前面的，不包括自己，显示前三；[3:] 显示自己后面的，包括自己；[-3]倒数第三个；[:-3]显示自己前面的，不包括自己；[-3:] 显示自己后面的，包括自己；</li>
+<li>分割字符串split函数；</li>
+<li>移除字符strip函数;移除空格、换行符、指定字符；</li>
 </ul>
+<h4 id="2-9-数据结构——列表"><a href="#2-9-数据结构——列表" class="headerlink" title="2.9 数据结构——列表"></a>2.9 数据结构——列表</h4><ul>
+<li>列表list：是用来存储一组有序数据元素的数据结构，元素之间用逗号分隔。数据元素在方括号中，列表是可变的数据类型，可添加、删除或者搜索列表中的元素。元素可以是int，str；</li>
+<li>列表的复制也可以用 * 操作符；</li>
+<li>列表的合并：用 + 操作符；extend函数，A.extend(B)讲B添加到A中；</li>
+<li>列表插入元素：append函数，在列表尾部插入元素；insert函数，在列表指定位置插入函数；</li>
+<li>列表中值出现的次数，使用count函数；</li>
+<li>获取列表中的位置，使用index函数；</li>
+<li>获取列表中指定位置的值：普通索引，切片索引；</li>
+<li>删除列表中的元素：pop函数，删除指定位置的元素；remove函数，删除指定元素；</li>
+<li>列表中元素排序，使用sort函数，默认为升序；降序为函数括号内填写reverse= True;</li>
+</ul>
+<h4 id="2-10-数据结构——字典"><a href="#2-10-数据结构——字典" class="headerlink" title="2.10 数据结构——字典"></a>2.10 数据结构——字典</h4><p>- </p>
 
             </div>
             <hr/>
@@ -962,7 +967,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">28.9k</span>&nbsp;字
+                class="white-color">29.3k</span>&nbsp;字
             
             
             
