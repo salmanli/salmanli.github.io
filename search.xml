@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>20201207常用设计参数</title>
+      <link href="/2020/12/07/20201207_chang_yong_she_ji_can_shu/"/>
+      <url>/2020/12/07/20201207_chang_yong_she_ji_can_shu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常用设计参数汇总"><a href="#常用设计参数汇总" class="headerlink" title="常用设计参数汇总"></a>常用设计参数汇总</h1><h2 id="视频监控系统"><a href="#视频监控系统" class="headerlink" title="视频监控系统"></a>视频监控系统</h2><h3 id="网络带宽与磁盘空间（1台摄像机24小时连续录像占用磁盘空间）"><a href="#网络带宽与磁盘空间（1台摄像机24小时连续录像占用磁盘空间）" class="headerlink" title="网络带宽与磁盘空间（1台摄像机24小时连续录像占用磁盘空间）"></a>网络带宽与磁盘空间（1台摄像机24小时连续录像占用磁盘空间）</h3><ul><li>核心参数与公式：不同压缩算法得出的帧大小不同；<br>  带宽/比特率/码率 = 帧大小 * 帧/秒 * 8；<br>  磁盘空间 = 帧大小 * 帧/秒 * 时间；</li></ul><table><thead><tr><th align="center">分辨率</th><th align="center">压缩算法</th><th align="center">帧大小KB</th><th align="center">帧率FPS</th><th align="center">带宽/比特率/码率kbit/s</th><th align="center">磁盘空间GB</th></tr></thead><tbody><tr><td align="center">1920*1080（2MP 16:9 FullHD）</td><td align="center">H.265-10</td><td align="center">17</td><td align="center">25</td><td align="center">3482</td><td align="center">37.6</td></tr><tr><td align="center">1920*1080（2MP 16:9 FullHD）</td><td align="center">H.265-15</td><td align="center">15</td><td align="center">25</td><td align="center">3072</td><td align="center">33.2</td></tr><tr><td align="center">1920*1080（2MP 16:9 FullHD）</td><td align="center">H.265-30</td><td align="center">11</td><td align="center">25</td><td align="center">2253</td><td align="center">24.3</td></tr><tr><td align="center">1920*1080（2MP 16:9 FullHD）</td><td align="center">H.265-50</td><td align="center">10.1</td><td align="center">25</td><td align="center">2068</td><td align="center">22.3</td></tr><tr><td align="center">2560*1440（4MP 16:9 ）</td><td align="center">H.265-10</td><td align="center">30</td><td align="center">25</td><td align="center">6144</td><td align="center">66.4</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建筑智能化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建筑智能化 </tag>
+            
+            <tag> 理论基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20201206物联网基础</title>
       <link href="/2020/12/06/20201206_wu_lian_wang_ji_chu/"/>
       <url>/2020/12/06/20201206_wu_lian_wang_ji_chu/</url>
