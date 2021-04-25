@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>你看到的AI与智能无关</title>
+      <link href="/2021/04/26/20210426_ni_kan_dao_de_ai_yu_zhi_neng_wu_guan/"/>
+      <url>/2021/04/26/20210426_ni_kan_dao_de_ai_yu_zhi_neng_wu_guan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>你看到的AI与智能无关</p><h1 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h1><p>填槽,NLU,GOFAI,NER</p><h1 id="内容简述"><a href="#内容简述" class="headerlink" title="内容简述"></a>内容简述</h1><h2 id="文章出处"><a href="#文章出处" class="headerlink" title="文章出处"></a>文章出处</h2><p><a href="https://easyai.tech/blog/ai-yuyin-jiaohu-aipm/" target="_blank" rel="noopener">https://easyai.tech/blog/ai-yuyin-jiaohu-aipm/</a></p><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ul><li>Tele presence：远程语音；</li><li>AGI,Artificial General Intelligence通用人工智能；Super Intelligence超级人工智能；未来人工智能的结果，终极目标；现在“人工智能效果”是人工智能的过程；</li><li>意图识别：可以看做是一个分类问题，针对于垂直产品的特点，定义不同的查询意图类别。 对于用户输入的query，根据统计分类模型计算出每一个意图的概率，最终给出查询的意图。</li><li>实体提取：从自然语言文本中抽取指定类型的实体、关系、事件等事实信息，并形成结构化数据输出的文本处理技术。</li><li>关系抽取：发现和分类文本实体之间的语义关系。</li><li>填槽：Slot filling</li><li>ASE：语音识别为文字；TTS：文字识别为语音并播报；</li><li>真正的智能，至少要实现基于常识和世界模型的推理能力。</li><li>DL(Deep Learning) + GOFAI (Good Old Fashioned AI)</li></ul><h1 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h1><p>语言类的智能识别技术是人工智能技术的重要组成部分。语言是人类沟通的桥梁、工具，针对语言类的关键词抽取、结构化定义、上下文理解等目前还处于“填槽”阶段。真正的智能还需要强智能出现，方可解决。但强智能好的出现，也许真的会是人类发展的终点。——2021.4.23</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人工智能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么现在的人工智能助理都像人工智障？</title>
+      <link href="/2021/04/26/20210425_wei_shi_me_xian_zai_de_ren_gong_zhi_neng_zhu_li_du_xiang_ren_gong_zhi_zhang/"/>
+      <url>/2021/04/26/20210425_wei_shi_me_xian_zai_de_ren_gong_zhi_neng_zhu_li_du_xiang_ren_gong_zhi_zhang/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>为什么现在的人工智能助理都像人工智障？</p><h1 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h1><p>IPA/VPA,XEROX,NLU,API困境,</p><h1 id="内容简述"><a href="#内容简述" class="headerlink" title="内容简述"></a>内容简述</h1><h2 id="文章出处"><a href="#文章出处" class="headerlink" title="文章出处"></a>文章出处</h2><p><a href="https://mp.weixin.qq.com/s?__biz=Mzg5NDIwODgzMA==&amp;mid=2247484378&amp;idx=1&amp;sn=1bc51bf52c3c2643d70fcfb91002c36d&amp;source=41#wechat_redirect" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=Mzg5NDIwODgzMA==&amp;mid=2247484378&amp;idx=1&amp;sn=1bc51bf52c3c2643d70fcfb91002c36d&amp;source=41#wechat_redirect</a></p><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ul><li>人工智能助理Intelligent personal assistant/agent（IPA）又称为Virtual Personal Assistant/Agent （VPA）：帮助个人完成多项任务或多项服务的虚拟助理；</li><li>消费级产品效果2016年仅能以“进步”为目标，不敢以“搞定”为目标；</li><li>对话式服务（conversational service/commerce）是包含智能助理在内的多个产品形态的统称，核心特点：<ul><li>对话式：人机交互的方式由图形化交互（GUI-Graphical User Interface）变为以对话作为交互方式（CUI-Conversational User Interface 业界暂时还没有定义，是作者瞎编的），就是用说话来代替触摸或者鼠标，操作计算设备。</li><li>服务：提供服务，解决问题都算，如订机票，购买礼物等。不包括信息查询（如天气）。</li></ul></li><li>SERP:基于用命名实体识别来代替打字输入关键词然后返回检索结果。</li><li>XEROX,1973年推出第一款GUI界面的个人电脑，1983年乔布斯成功“借鉴”；</li><li>CUI的专属特点：使用流程非线形；可避免信息过载；复合动作；</li><li>对话式助理基本功能：具备基本上下文对话能力；理解口语中的逻辑；所有理解的需求，都有能力履行；</li><li>NLU：自然语言理解；</li><li>“API困境”：当前基于API的数据传递方式，只能承载结构化数据；承载数量非常有限的结构化数据。</li></ul><h1 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h1><p>人工智能助理作为语言类人工智能的应用，智能程度还是取决于人工智能的核心发展，“填槽”式的人工智能没有进步，其应用也无法深入发展。——2021.4.23</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人工智能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>人工智能的算法概述</title>
+      <link href="/2021/04/25/20210425_ren_gong_zhi_neng_de_suan_fa_gai_shu/"/>
+      <url>/2021/04/25/20210425_ren_gong_zhi_neng_de_suan_fa_gai_shu/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>人工智能的算法概述</p><h1 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h1><p>三要素，七步骤，四特征，六方法，TIPS</p><h1 id="内容简述"><a href="#内容简述" class="headerlink" title="内容简述"></a>内容简述</h1><ul><li>人工智能的三个关键要素：数据、算法、算力。</li><li>算法定义：是一组严谨地定义运算顺序的规则，并且每一个规则都是有效的，且是明确的，此顺序将在有限的次数下终止。是解决问题的手段，并且是批量化解决问题的手段。是用来训练模型的。</li><li>算法选择的TIPS：无万能算法，无高低算法，按需选择算法；</li><li>TIPS = To Insure Prompt Service 小贴士</li></ul><h2 id="机器学习七步骤"><a href="#机器学习七步骤" class="headerlink" title="机器学习七步骤"></a>机器学习七步骤</h2><ul><li>收集数据、数据准备、选择模型、训练、评估、参数调整、预估；详见《机器学习科普大全学习笔记》</li></ul><h2 id="算法的四个特征"><a href="#算法的四个特征" class="headerlink" title="算法的四个特征"></a>算法的四个特征</h2><ul><li>可行性：针对实际问题设计算法；</li><li>确定性：每个计算步骤有明确的定义，不支持模棱两可的多义。例如：当明确的数学计算需要注意异常产生导致的次计算内容；</li><li>有穷性：合理的执行时间内完成；</li><li>有足够的情报；保证输入的正确性；</li></ul><h2 id="算法的六个基本方法"><a href="#算法的六个基本方法" class="headerlink" title="算法的六个基本方法"></a>算法的六个基本方法</h2><ul><li>举例、归纳、递推、递归、减半递推技术、回溯；</li></ul><h1 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h1><ul><li>低成本快速解决问题既最优；</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人工智能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>GB50339智能建筑工程质量验收规范学习笔记</title>
       <link href="/2021/03/28/gb50339_zhi_neng_jian_zhu_gong_cheng_zhi_liang_yan_shou_gui_fan_xue_xi_bi_ji/"/>
       <url>/2021/03/28/gb50339_zhi_neng_jian_zhu_gong_cheng_zhi_liang_yan_shou_gui_fan_xue_xi_bi_ji/</url>
