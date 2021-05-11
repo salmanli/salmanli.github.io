@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>少3dB会死吗</title>
+      <link href="/2021/05/11/20210511_shao_3db_hui_si_ma/"/>
+      <url>/2021/05/11/20210511_shao_3db_hui_si_ma/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h1><p>3dB，专业扩声系统，灵敏度，声压级</p><h1 id="分享内容"><a href="#分享内容" class="headerlink" title="分享内容"></a>分享内容</h1><p>&emsp;&emsp;本故事纯属虚构，如有雷同，实属巧合。</p><p>&emsp;&emsp;话说某专业音频设备招采技术评标会，招标文件专业音箱的技术要求为：“输出功率不小于800W，灵敏度不低于98dB“。投标音箱技术参数为：”峰值功率800W，额定功率400W，灵敏度95dB”。技术标评定，投标单位所投设备不满足招标技术要求，要求二轮回标予以修正调改。</p><p>&emsp;&emsp;招采小组为节约建设成本，建议评标技术小组判定投标单位所投设备参数满足招标使用要求。其理由为投标单位原厂技术工程师承诺，所投产品满足实际使用需求。评标技术小组以招标技术参数是经过软件模拟给出的最低指标为由，拒绝招采小组的建议。</p><p>&emsp;&emsp;双方争论不休时，某招采领导发话到：“一个音箱喇叭，功率满足要求即可。灵敏度少3个dB会死啊？技术小组太较真。以前采购那么多音箱，也从来没有技术人员在这个参数上纠结过。“评标现场一度陷入尴尬。</p><p>&emsp;&emsp;建设方连线顾问设计公司，告知事情前后原委。设计顾问给出最后的建议为：“音箱灵敏度参数对最大声压级有影响，声压级相差3dB，声功率相差一倍。按此推算，投标单位应配置功率为1600W/灵敏度95dB或功率400W/灵敏度101dB的音箱。目前投标单位所投设备不满足招标要求，建议二轮回标按需调整。”</p><p>&emsp;&emsp;争论到此为止……</p><h1 id="技术分析"><a href="#技术分析" class="headerlink" title="技术分析"></a>技术分析</h1><p>&emsp;&emsp;故事中，设计顾问公司提出：“<strong>声压级相差3dB，声功率相差一倍。</strong>”具体证明过程如下：</p><p>&emsp;&emsp;音箱功率与声压级的关系公式为：$Lp=10logW$;</p><p>&emsp;&emsp;设：$Lp_1$=98dB；</p><p>&emsp;&emsp;&emsp;&emsp;$Lp_2$=95dB；</p><p>&emsp;&emsp;&emsp;&emsp;$W_1$为$Lp_1$状态对应的音箱功率；</p><p>&emsp;&emsp;&emsp;&emsp;$W_2$为$Lp_2$状态对应的音箱功率；</p><p>&emsp;&emsp;&emsp;&emsp;$Lp_1$ - $Lp_2$ = 10log$W_1$ - 10log$W_2$    $\Longrightarrow$    98 - 95 = 10log$\frac {W_1}{W_2}$    $\Longrightarrow$    $log\frac {W_1}{W_2}$ = 0.3    $\Longrightarrow$    $\frac {W_1}{W_2} \approx 2$ </p><p>&emsp;&emsp;所以，要想声压级提高3dB，需要对应的音箱功率提高一倍。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>&emsp;&emsp;脱离音箱功率谈声压级或者脱离声压级谈功率，都是耍流氓。</p><p>&emsp;&emsp;少3dB不会死，会不专业。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建筑智能化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 3dB </tag>
+            
+            <tag> 专业扩声系统 </tag>
+            
+            <tag> 灵敏度 </tag>
+            
+            <tag> 声压级 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>你看到的AI与智能无关</title>
       <link href="/2021/04/26/20210426_ni_kan_dao_de_ai_yu_zhi_neng_wu_guan/"/>
       <url>/2021/04/26/20210426_ni_kan_dao_de_ai_yu_zhi_neng_wu_guan/</url>
