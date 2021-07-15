@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Zigbee基础知识</title>
+      <link href="/2021/07/15/20210715zigbee_ji_chu_zhi_shi/"/>
+      <url>/2021/07/15/20210715zigbee_ji_chu_zhi_shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Zigbee基础知识"><a href="#Zigbee基础知识" class="headerlink" title="Zigbee基础知识"></a>Zigbee基础知识</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><ul><li>最大传输速率250Kbps；</li><li>支持Mesh网络；</li><li>诞生2003年；</li><li>2016年，Zigbee3.0标准，强制执行；</li><li>Zigbee协议，IEEE 802.15.4;工作在2.4G（CH11：2.405GHz，5Mhz间隔，11-26），868M，915M；收发不同时进行；</li><li>FFD:Full Function Device;RFD:Reduced Function Device;</li><li>PAN ID:16-bit;</li><li>xPAN ID:64-bit;</li><li>Cluster模型，标准统一的模式，ZCL spec已定义；</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 理论基础 </tag>
+            
+            <tag> 物联网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>《居里夫人自传》读书笔记</title>
       <link href="/2021/07/04/ju_li_fu_ren_zi_chuan_du_shu_bi_ji/"/>
       <url>/2021/07/04/ju_li_fu_ren_zi_chuan_du_shu_bi_ji/</url>

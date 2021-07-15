@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="十分钟学Pandas, 建筑智能化 建筑电气 建筑风水 系统集成 弱电">
-    <meta name="description" content="pandas有两个很重要的的数据结构：Series和DataFrame，今天先学习Series的用法。可以通过传递一个 list 对象来创建一个 SeriesSeries是一种类似于一维数组的对象，它由一组数据（各种NumPy数据类型）以及">
+    <meta name="keywords" content="Zigbee基础知识, 建筑智能化 建筑电气 建筑风水 系统集成 弱电">
+    <meta name="description" content="Zigbee基础知识学习笔记">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>十分钟学Pandas | Black C</title>
+    <title>Zigbee基础知识 | Black C</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -218,12 +218,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">十分钟学Pandas</h1>
+                    <h1 class="description center-align post-title">Zigbee基础知识</h1>
                 </div>
             </div>
         </div>
@@ -338,12 +338,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/">
+                                <span class="chip bg-color">理论基础</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/">
+                                <span class="chip bg-color">物联网</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                读书笔记
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -352,21 +369,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-04
+                    2021-07-15
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-05
+                    2021-07-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    493
+                    95
                 </div>
                 
 
@@ -389,12 +406,17 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>pandas有两个很重要的的数据结构：Series和DataFrame，今天先学习Series的用法。<br>可以通过传递一个 list 对象来创建一个 Series<br>Series是一种类似于一维数组的对象，它由一组数据（各种NumPy数据类型）以及一组与之相关的数据标签（即索引）组成。</p>
-<p>Series的字符串表现形式为：索引在左边，值在右边。它会自动创建一个0到N-1（N为数据的长度）的整数型索引。</p>
-<p>NaN（即“非数字”(not a number)，在pandas中，它用于表示缺失或NA值）。</p>
-<p>Series最重要的一个功能是：它在算术运算中会自动对齐不同索引的数据。<br>Series对象本身及其索引都有一个name属性<br>Series的索引可以通过赋值的方式就地修改</p>
-<p>通过传递一个 numpy array ，时间索引以及列标签来创建一个 DataFrame<br>dtypes查询不同的数据类型<br>head()查看头部文件<br>tail()查看尾部文件<br>函数.index查看索引<br>函数.columns查看列名<br>函数.values查看数据<br>函数.discribe()快速统计汇总<br>    count：一列的元素个数；<br>      mean：一列数据的平均值；<br>    std：一列数据的均方差；（方差的算术平方根，反映一个数据集的离散程度：越大，数据间的差异越大，数据集中数据的离散程度越高；越小，数据间的大小差异越小，数据集中的数据离散程度越低）<br>    min：一列数据中的最小值；<br>    max：一列数中的最大值；<br>    25%：一列数据中，前 25% 的数据的平均值；<br>    50%：一列数据中，前 50% 的数据的平均值；<br>    75%：一列数据中，前 75% 的数据的平均值；<br>函数.T对数据转置</p>
-<p>randn（random normal distribution）是一种产生标准正态分布的随机数或矩阵的函数，属于MATLAB函数。返回一个n * n的随机项的矩阵。</p>
+                <h1 id="Zigbee基础知识"><a href="#Zigbee基础知识" class="headerlink" title="Zigbee基础知识"></a>Zigbee基础知识</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><ul>
+<li>最大传输速率250Kbps；</li>
+<li>支持Mesh网络；</li>
+<li>诞生2003年；</li>
+<li>2016年，Zigbee3.0标准，强制执行；</li>
+<li>Zigbee协议，IEEE 802.15.4;工作在2.4G（CH11：2.405GHz，5Mhz间隔，11-26），868M，915M；收发不同时进行；</li>
+<li>FFD:Full Function Device;RFD:Reduced Function Device;</li>
+<li>PAN ID:16-bit;</li>
+<li>xPAN ID:64-bit;</li>
+<li>Cluster模型，标准统一的模式，ZCL spec已定义；</li>
+</ul>
 
             </div>
             <hr/>
@@ -420,7 +442,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.lsxec.com/2020/04/04/20200404_shi_fen_zhong_xue_pandas/">https://www.lsxec.com/2020/04/04/20200404_shi_fen_zhong_xue_pandas/</a>
+                    <a href="https://www.lsxec.com/2021/07/15/20210715zigbee_ji_chu_zhi_shi/">https://www.lsxec.com/2021/07/15/20210715zigbee_ji_chu_zhi_shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -457,7 +479,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/">
+                                    <span class="chip bg-color">理论基础</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/">
+                                    <span class="chip bg-color">物联网</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -501,7 +531,7 @@
         repo: 'gitalk',
         owner: 'salmanli',
         admin: "salmanli",
-        id: '2020-04-04T23-13-19',
+        id: '2021-07-15T23-21-52',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -522,44 +552,54 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/04/19/20200419_pu_tao_jiu_de_gu_shi/">
+                <a href="/2021/07/15/20210715zigbee_ji_chu_zhi_shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="葡萄酒的故事">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Zigbee基础知识">
                         
-                        <span class="card-title">葡萄酒的故事</span>
+                        <span class="card-title">Zigbee基础知识</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            《葡萄酒的故事》 休.约翰逊前言
-《游艇会的午宴》 雷诺阿 油画 1881年
-酒神巴克斯
-
-第一章 排解烦恼的力量第二章 第一次踩葡萄
-马拉尼=酒窖
-奎弗瑞，发酵葡萄酒的容器
-渣渣酒，格拉巴酒，一种用酒渣酿制的白兰地
-野生葡萄雌雄同株很少，
+                            Zigbee基础知识学习笔记
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-15
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Nick
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">理论基础</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%89%A9%E8%81%94%E7%BD%91/">
+                        <span class="chip bg-color">物联网</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -571,40 +611,51 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/03/29/20200329_quan_guo_yi_yuan_xin_xi_hua_jian_she_biao_zhun_yu_gui_fan_xue_xi_xin_de/">
+                <a href="/2021/07/04/ju_li_fu_ren_zi_chuan_du_shu_bi_ji/">
                     <div class="card-image">
                         
+                        <img src="https://cdn.jsdelivr.net/gh/salmanli/cdn/img/20210704.jpg" class="responsive-img" alt="《居里夫人自传》读书笔记">
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="全国医院信息化建设标准与规范学习心得">
-                        
-                        <span class="card-title">全国医院信息化建设标准与规范学习心得</span>
+                        <span class="card-title">《居里夫人自传》读书笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            全国医院信息化建设标准与规范（试行）
-国家卫生健康委员会规划与信息司、统计信息中心；2018年4月；
-服务范围：二级医院、三级乙等、三级甲等医院；
-
-医院智能化建设参考设计原则
-需考虑未来5-10年医院信息化应用发展需求
-
-常规系统
-基础设
+                            一口气读完。刚开始觉得居里夫妇的成功得幸于双方优秀的家庭教育，一个家族拿了四次诺贝尔奖，估计全世界也没谁了吧。书读过半才了解到，居里夫妇的科学成就远多于我原来了解的镭元素的发现。全篇读完，对皮埃尔居里的意外离去倍感惋惜，更能感受到居里夫人对先生那真挚的爱情，让人羡慕不已。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-04
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Nick
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    读书笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%B1%85%E9%87%8C%E5%A4%AB%E4%BA%BA/">
+                        <span class="chip bg-color">居里夫人</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%8C%96%E5%AD%A6/">
+                        <span class="chip bg-color">化学</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BA%BA%E7%89%A9%E4%BC%A0%E8%AE%B0/">
+                        <span class="chip bg-color">人物传记</span>
+                    </a>
+                    
                 </div>
                 
             </div>
