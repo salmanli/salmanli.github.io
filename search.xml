@@ -32,22 +32,20 @@
     
     <entry>
       <title>《居里夫人自传》读书笔记</title>
-      <link href="/2021/07/04/ju_li_fu_ren_zi_chuan_du_shu_bi_ji/"/>
-      <url>/2021/07/04/ju_li_fu_ren_zi_chuan_du_shu_bi_ji/</url>
+      <link href="/2021/07/04/book_ju_li_fu_ren_zi_chuan_du_shu_bi_ji/"/>
+      <url>/2021/07/04/book_ju_li_fu_ren_zi_chuan_du_shu_bi_ji/</url>
       
         <content type="html"><![CDATA[<h1 id="读书笔记"><a href="#读书笔记" class="headerlink" title="读书笔记"></a>读书笔记</h1><ul><li>信仰是方向，法治是契约；</li><li>1896年，法国物理学家贝克莱尔发现“贝克莱尔射线”</li><li>1898年，居里夫妇7月发现钋；12月发现镭；</li><li>1903年居里夫妇与贝克莱尔共享诺贝尔物理学奖；</li><li>1911年居里夫人获诺贝尔化学奖；</li><li>1935年大女儿，女婿获诺贝尔化学奖；</li><li>1965年二女婿获诺贝尔和平奖；</li><li>居里夫人对教育有自己独特的见解，大女儿没有读中学，通过自己与朋友们的社团教学完成，插班考试后顺利进入大学。对其丈夫的童年智商认知和教育也有自己的看法。</li><li>居里夫人年轻时做过家庭教师，19世纪法国乃至欧洲得这种家庭教育形式和现在国内的主流教育形式不同。家庭教师的能力对受教育者影响较大。</li><li>伽罗瓦群的理论</li><li>物理=实验</li><li>用琐事麻痹想思索的脑子引自维克多・雨果的《国王取乐》。尽管我很弱，但为了让我的头脑不要随风飘荡，不要有风吹草动就不知如何是好，就必须让我周的一切静止不动，或者让我像一只飞速旋转的陀螺，对外界的事物无动于衷。当我自身正在慢慢地转动时，我就试图让自己飞速转动起来，但是，一点琐事、一向话、一个叙述、一份报纸一次来访就让我停了下来，致使我可能会把那个重要时刻永远地推后、延宕，本来只要加快必要的速度，我会无视周的一切，集中精力…我们必吃、喝、睡、懒、爱，必须接触生活中的最甜美的事，但却不可沉其中，在做所有这些必须做的事情的同时，坚定不移地抗御本能的思想要占据主导，在我们可怜的脑袋中继续不受千扰地发展下去。必须把生活变成一个梦，再把梦变为现实。</li><li>居里静电计、采用测微计支持空气阻尼的天平</li><li>科学研究需要自由</li><li>居里定律：在顺磁性材料中，材料的磁化强度大致与施加的磁场强度成正比。然而，若加热材料，则比值减小。对于固定场强的磁场，磁化率大致与温度成反比。<br>  $M=C \cdot \frac{B}{T} $<br>  其中:M是磁化强度;B是磁感应强度;T是温度,以开尔文为单位;C是材料的居里常数;</li><li>镭射气：氡属于稀有气体，无色、无臭、无味，具放射性[2]，是镭自然衰变后的间接产物，最稳定同位素为222Rn，半衰期为3.8天。在常规条件下，氡是密度最高的气体物质之一。它同时也是唯一一种常规条件下只含放射性同位素的气体，其辐射可以对健康造成损害。<h1 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h1></li></ul>]]></content>
       
       
       <categories>
           
-          <category> 读书笔记 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> 居里夫人 </tag>
             
             <tag> 化学 </tag>
             
@@ -117,8 +115,8 @@
     
     <entry>
       <title>少3dB会死吗</title>
-      <link href="/2021/05/11/shao_3db_hui_si_ma/"/>
-      <url>/2021/05/11/shao_3db_hui_si_ma/</url>
+      <link href="/2021/05/11/blog_shao_3db_hui_si_ma/"/>
+      <url>/2021/05/11/blog_shao_3db_hui_si_ma/</url>
       
         <content type="html"><![CDATA[<h1 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h1><p>3dB，专业扩声系统，灵敏度，声压级</p><h1 id="分享内容"><a href="#分享内容" class="headerlink" title="分享内容"></a>分享内容</h1><p>&emsp;&emsp;本故事纯属虚构，如有雷同，实属巧合。</p><p>&emsp;&emsp;话说某专业音频设备招采技术评标会，招标文件专业音箱的技术要求为：“输出功率不小于800W，灵敏度不低于98dB“。投标音箱技术参数为：”峰值功率800W，额定功率400W，灵敏度95dB”。技术标评定，投标单位所投设备不满足招标技术要求，要求二轮回标予以修正调改。</p><p>&emsp;&emsp;招采小组为节约建设成本，建议评标技术小组判定投标单位所投设备参数满足招标使用要求。其理由为投标单位原厂技术工程师承诺，所投产品满足实际使用需求。评标技术小组以招标技术参数是经过软件模拟给出的最低指标为由，拒绝招采小组的建议。</p><p>&emsp;&emsp;双方争论不休时，某招采领导发话到：“一个音箱喇叭，功率满足要求即可。灵敏度少3个dB会死啊？技术小组太较真。以前采购那么多音箱，也从来没有技术人员在这个参数上纠结过。“评标现场一度陷入尴尬。</p><p>&emsp;&emsp;建设方连线顾问设计公司，告知事情前后原委。设计顾问给出最后的建议为：“音箱灵敏度参数对最大声压级有影响，声压级相差3dB，声功率相差一倍。按此推算，投标单位应配置功率为1600W/灵敏度95dB或功率400W/灵敏度101dB的音箱。目前投标单位所投设备不满足招标要求，建议二轮回标按需调整。”</p><p>&emsp;&emsp;争论到此为止……</p><h1 id="技术分析"><a href="#技术分析" class="headerlink" title="技术分析"></a>技术分析</h1><p>&emsp;&emsp;故事中，设计顾问公司提出：“<strong>声压级相差3dB，声功率相差一倍。</strong>”具体证明过程如下：</p><p>&emsp;&emsp;音箱功率与声压级的关系公式为：$Lp=10logW$;</p><p>&emsp;&emsp;设：$Lp_1$=98dB；</p><p>&emsp;&emsp;&emsp;&emsp;$Lp_2$=95dB；</p><p>&emsp;&emsp;&emsp;&emsp;$W_1$为$Lp_1$状态对应的音箱功率；</p><p>&emsp;&emsp;&emsp;&emsp;$W_2$为$Lp_2$状态对应的音箱功率；</p><p>&emsp;&emsp;&emsp;&emsp;$Lp_1$ - $Lp_2$ = 10log$W_1$ - 10log$W_2$    $\Longrightarrow$    98 - 95 = 10log$\frac {W_1}{W_2}$    $\Longrightarrow$    $log\frac {W_1}{W_2}$ = 0.3    $\Longrightarrow$    $\frac {W_1}{W_2} \approx 2$ </p><p>&emsp;&emsp;所以，要想声压级提高3dB，需要对应的音箱功率提高一倍。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>&emsp;&emsp;脱离音箱功率谈声压级或者脱离声压级谈功率，都是耍流氓。</p><p>&emsp;&emsp;少3dB不会死，会不专业。</p>]]></content>
       
@@ -229,14 +227,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
@@ -274,23 +272,21 @@
     
     
     <entry>
-      <title>20201206物联网基础</title>
-      <link href="/2020/12/06/wu_lian_wang_ji_zhu_gai_lun_du_shu_bi_ji/"/>
-      <url>/2020/12/06/wu_lian_wang_ji_zhu_gai_lun_du_shu_bi_ji/</url>
+      <title>《物联网技术概论》读书笔记</title>
+      <link href="/2020/12/06/book_wu_lian_wang_ji_zhu_gai_lun_du_shu_bi_ji/"/>
+      <url>/2020/12/06/book_wu_lian_wang_ji_zhu_gai_lun_du_shu_bi_ji/</url>
       
         <content type="html"><![CDATA[<h1 id="物联网技术概论（第2版）"><a href="#物联网技术概论（第2版）" class="headerlink" title="物联网技术概论（第2版）"></a>物联网技术概论（第2版）</h1><h2 id="第1章-物联网概述"><a href="#第1章-物联网概述" class="headerlink" title="第1章 物联网概述"></a>第1章 物联网概述</h2><h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- 传感器网络（Sensor Networks）- 美国国防部先进研究计划局（Defense Advanced Research Projects Agency,DARPA)- 分布式传感器网络（Distributes Senseor Networks,DSN）- 无线集成网络传感器（Wireless Integrated Networks Systems,WINS）- uAMPS(Micro-Adaptive Multi-domain Power Aware Sensors)- SensIT（Sensor Information Technology）- 低功耗无线传感器网络组网（LEACH，Low Energy Adaptive Cluster Hierarchy）- 射频识别（Radio Frequency Identification,RFID）：利用无线电射频方式进行非接触双向通信，以达到目标识别目的并交换数据；- 产品电子编码（Electronic Product Code,EPC）- 国际移动用户识别码（Internation Mobile Subscriber Identification Number,IMSI）- 对象名称服务（Object Name Service，ONS）- 对象标识符（Object Identifiers）- 对象标识符解析系统（Object identifier Resolution System）:使用标准ITU-T X.672,ISO/IEC 29168-1;- M2M（Machine to Machine）- 信息物理系统（Cyber-Physical System,CPS）- 工业监视控制与数据采集系统（Supervisory Control And Data Acquisition,SCADA）- 物理计算系统（Physical Computing System）- 开放地理信息联盟（Open Geospatial Consortium,OGC）- SEW（Sensor Web Enablement）- 物联网（Internet of Things,IoT）- 泛在网络：来自拉丁语Ubiquitous，指无所不在的网络；- 移动泛在业务环境（Mobile Ubiquitous Service Environment,MUSE）- </code></pre><h3 id="重点概念"><a href="#重点概念" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>物联网起源于传感器网络、传感器、射频识别（RFID）以及标识编址技术的融合发展；</li><li>物联网重要的特点之一是感知现实物理世界；</li><li>基于IPv6的物联网表示及编码机制还在研究阶段；</li><li>M2M系统在逻辑上可分为3格不同的域，即终端域、网络域和应用域；</li><li>M2M技术核心价值：可靠的通讯保障/统一的通讯语言/智能的机器终端；</li><li>M2M业务类型（5种）：数据测量/监控和告警/控制/支付与交易处理/追踪与物品管理；</li><li>物联网的特征：全面感知/可靠传输/智能处理；</li><li>MUSE参考模型</li></ul><table><thead><tr><th align="center">用户需求</th><th align="center">新业务特征</th><th align="center">终端业务环境</th><th align="center">网络业务环境</th></tr></thead><tbody><tr><td align="center">新闻/安全/学习/旅游/医疗/生活/理财/娱乐/……</td><td align="center">业务适配/上下文感知/个性化/……</td><td align="center">计算能力/连接性能力/感知能力/交互能力</td><td align="center">消费能力/移动性能力/资源管理能力/……</td></tr></tbody></table><ul><li>普适计算基本特征： 分散性/多样性/连通性/简单性；</li></ul>]]></content>
       
       
       <categories>
           
-          <category> 读书笔记 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> 理论基础 </tag>
             
             <tag> 物联网 </tag>
             
@@ -339,14 +335,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
@@ -989,14 +985,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
@@ -1038,16 +1034,16 @@
     
     
     <entry>
-      <title>建筑智能化系统（第2版）</title>
-      <link href="/2020/02/02/jian_zhu_zhi_neng_hua_xi_tong_di_2_ban_su_du_bi_ji/"/>
-      <url>/2020/02/02/jian_zhu_zhi_neng_hua_xi_tong_di_2_ban_su_du_bi_ji/</url>
+      <title>《建筑智能化系统（第2版）》读书笔记</title>
+      <link href="/2020/02/02/book_jian_zhu_zhi_neng_hua_xi_tong_di_2_ban_su_du_bi_ji/"/>
+      <url>/2020/02/02/book_jian_zhu_zhi_neng_hua_xi_tong_di_2_ban_su_du_bi_ji/</url>
       
         <content type="html"><![CDATA[<h1 id="建筑智能化系统（第2版）速读笔记"><a href="#建筑智能化系统（第2版）速读笔记" class="headerlink" title="建筑智能化系统（第2版）速读笔记"></a>建筑智能化系统（第2版）速读笔记</h1><h2 id="第一章-导论"><a href="#第一章-导论" class="headerlink" title="第一章 导论"></a>第一章 导论</h2><h3 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- BIM (Building Informaition Modeling):建筑信息模型- PSTN (Public Switched Telephone Network):公共电话交换网，56kbps.- ISDN (Integrated Service Digital Network):综合业务数字网，128kbps.- xDSL(Digital Subscriber Line):数字用户线路,上行64kbps~1.5Mbps,下行640kbps~6Mbps.- BAS:楼宇自动化系统- CAS:通信自动化系统- OAS:办公自动化系统- SAS:安保自动化系统- FAS:消防自动化系统</code></pre><h3 id="重点概念"><a href="#重点概念" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>国内外定义对比</li></ul><table><thead><tr><th align="center">发布机构</th><th align="center">核心要素</th><th align="center">功能实现</th></tr></thead><tbody><tr><td align="center">美国智能建筑学会<br/>AIBI</td><td align="center">建筑、设备、服务、经营</td><td align="center">高效率、高功能、高舒适与高安全</td></tr><tr><td align="center">智能建筑设计标准<br/>GB50314-2015</td><td align="center">架构、系统、应用、管理和优化组合</td><td align="center">感知、传输、记忆、推理、判断和决策</td></tr></tbody></table><ul><li>IBA-RM （Intelligent Building Architecture Reference Model） 逻辑架构</li></ul><table><thead><tr><th align="center">架构层数</th><th align="center">架构服务范围</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">一层</td><td align="center">一般建筑环境</td><td align="center">建筑、结构、环境……</td></tr><tr><td align="center">二层</td><td align="center">智能建筑环境</td><td align="center">水暖电接入条件……</td></tr><tr><td align="center">三层</td><td align="center">建筑内信息网传输环境</td><td align="center">网络系统，电话、数据网、专网……</td></tr><tr><td align="center">四层</td><td align="center">楼宇设备自动监控</td><td align="center">水暖电环境监控、消防、安防、出入控制、公共广播属于楼宇设备自动监控内容</td></tr><tr><td align="center">五层</td><td align="center">面向设备管理的系统集成</td><td align="center">子系统控制软件……</td></tr><tr><td align="center">六层</td><td align="center">面向用户的系统集成</td><td align="center">IBMS……</td></tr></tbody></table><ul><li>智能化顶层设计思路：以智能楼宇的应用功能为起点，“由顶向下，由外向内”。</li><li>智能化系统工程架构的层次模型：建筑环境&lt;基础设施层&lt;信息服务设施层&lt;信息化引用设施层</li><li>BIM全生命周期：概念设计–&gt;细节设计–&gt;分析–&gt;出图–&gt;预制–&gt;4D/5D施工–&gt;施工/物流–&gt;运行维护–&gt;拆除/翻新</li><li>BIM设计阶段价值：可视化、协调性、模型分析；</li><li>BIM常用软件</li></ul><table><thead><tr><th align="center">软件类型</th><th align="center">软件品牌</th></tr></thead><tbody><tr><td align="center">核心建模软件</td><td align="center">Revit\Bentley\ArchiCAD\Digital Project</td></tr><tr><td align="center">方案设计软件</td><td align="center">Onuma Planning System\Affinity</td></tr><tr><td align="center">结构分析软件</td><td align="center">ETABS\STAAD\Robot\PKPM</td></tr><tr><td align="center">可视化软件</td><td align="center">3ds Max\Artlantis\AccuRender\Lightscape</td></tr><tr><td align="center">模型综合碰撞检查软件</td><td align="center">鲁班软件\Autodesk Navisworks\Bentley Projectwise Navigator\Solibri Model Checker</td></tr><tr><td align="center">造价管理软件</td><td align="center">Innovaya\Solibri\鲁班软件</td></tr><tr><td align="center">运营软件</td><td align="center">ArchiBUS</td></tr></tbody></table><ul><li>现场总线类型：Foundation Fieldbus（FF）\LonWorks\Profibus\HART\CAN\EIB等</li><li>数据库：关系型数据库和实时数据库</li><li>组态软件：应用程序生成器，搭积木</li></ul><h2 id="第二章-智能建筑信息传输网络基础原理"><a href="#第二章-智能建筑信息传输网络基础原理" class="headerlink" title="第二章 智能建筑信息传输网络基础原理"></a>第二章 智能建筑信息传输网络基础原理</h2><h3 id="名词解释-1"><a href="#名词解释-1" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- PABX(Private Automatic Branch eXchange):程控用户交换机- PCM(Pulse Code Modulation）编码:脉冲调制编码- UTP(Unshielded Twisted Pair):非屏蔽双绞线- STP(Shielded Twisted Pair):屏蔽双绞线- WDM(Wavelength-Division Multiplex):光波分复用- RFID(Radio Frequency IDentification):射频识别技术- NFC(Near Field Communication):近场通信- PSTN(Public Swithed Telephone Network):公共交换电话网</code></pre><h3 id="重点概念-1"><a href="#重点概念-1" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>智能建筑网络传输对象分类</li></ul><table><thead><tr><th align="center">传输类型</th><th align="center">传输分类</th><th align="center">传输明细</th></tr></thead><tbody><tr><td align="center">模拟数据</td><td align="center">控制信号<br/>音频信号<br/>视频信号</td><td align="center">电压<br/>电流<br/>话音<br/>全频<br/>基带视频<br/>复合视频<br/>高清视频</td></tr><tr><td align="center">数字数据</td><td align="center">非实时数据<br/>实时数据</td><td align="center">C/S、B/S应用数据模块<br/>文件数据<br/>大容量文档数据<br/>控制数据<br/>音频流数据<br/>视频流数据</td></tr></tbody></table><ul><li>智能建筑网络传输对象特征</li></ul><table><thead><tr><th align="center">传输对象</th><th align="center">特征</th><th align="center">模拟传输带宽</th><th align="center">数字传输带宽</th></tr></thead><tbody><tr><td align="center">模拟控制信号</td><td align="center">电压:0<del>5V、0</del>10V<br/>电流:4~20mA</td><td align="center">几百赫</td><td align="center">最高12Mbps</td></tr><tr><td align="center">模拟话音信号</td><td align="center">中音标准频率300~3400Hz</td><td align="center">4000Hz</td><td align="center">PCM编码（ISDN) 64kbps <br/> 压缩编码（VoIP） G.729协议 8kbps</td></tr><tr><td align="center">模拟音频信号</td><td align="center">20Hz~20kHz</td><td align="center">20kHz</td><td align="center">PCM编码（CobraNet） 704kbps <br/> 压缩编码（IP网络） MP3协议 100kbps</td></tr><tr><td align="center">模拟基带视频信号</td><td align="center">基带6MHz</td><td align="center">8MHz</td><td align="center">MPEG-4 压缩编码标准（IP网络） 2Mbps</td></tr><tr><td align="center">模拟复合视频信号</td><td align="center">300~860MHz</td><td align="center">900Hz</td><td align="center">-</td></tr><tr><td align="center">非实时数据</td><td align="center">块数据和文档数据</td><td align="center">4000Hz</td><td align="center">IP网络 越高越好</td></tr><tr><td align="center">实时控制数据</td><td align="center">数字设备间传输，有延时要求</td><td align="center">-</td><td align="center">1Mbps，越高越好</td></tr><tr><td align="center">实时音频数据</td><td align="center">音频数据文档在线播放</td><td align="center">-</td><td align="center">IP网络，压缩编码</td></tr><tr><td align="center">实时视频数据</td><td align="center">视频数据在线播放</td><td align="center">-</td><td align="center">IP网络，压缩编码</td></tr></tbody></table><ul><li>信道容量<br>\[C= \omega \times log_2(1 + S/N)\]</li></ul><ul><li>C:信道容量</li><li>S:通过信道的功率</li><li>N:信道上噪声的功率</li><li>$\omega$:信道带宽，单位Hz</li></ul><ul><li>光纤传输容量目前可达6400Gbps。光纤时延失真的原因是色散和时散。</li><li>微波可穿透玻璃、塑料、瓷器，被金属反射。</li><li>卫星通讯高度：35860km，覆盖范围18000km，通讯延时240 ~ 330ms</li></ul><h2 id="第三章-智能建筑内的计算机网络"><a href="#第三章-智能建筑内的计算机网络" class="headerlink" title="第三章 智能建筑内的计算机网络"></a>第三章 智能建筑内的计算机网络</h2><h3 id="名词解释-2"><a href="#名词解释-2" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- IrDA(Infrared Data Association):红外数据标准协会- DSL(Digital Subscriber Line):数字用户线- OLT(Optical Line Terminal):光纤线路终端- ONT/ONU(Optical Network Terminal/Optical Network Unit):光网络终端/光网络单元</code></pre><h3 id="重点概念-2"><a href="#重点概念-2" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>HomeRF为家庭设计的一种无线局域网技术标准，利用调频扩频方式工作在2.4GHz的频段上，调频带宽1MHz，最大速率2Mbps，传输范围大于100米。</li><li>IrDA点对点传输，最高速率16Mbps。</li><li>接入网接入类型及速率</li></ul><table><thead><tr><th align="center">连接类型</th><th align="center">传输速率</th></tr></thead><tbody><tr><td align="center">PSTN</td><td align="center">45kbps</td></tr><tr><td align="center">ISDN</td><td align="center">BRI（基本速率）128kbps,PRI（群速率）2Mbps</td></tr><tr><td align="center">ADSL</td><td align="center">下行1.544 ~ 8.448Mbps,上行640kbps ~ 1.544Mbps</td></tr><tr><td align="center">CE1</td><td align="center">64kbps</td></tr><tr><td align="center">DDN</td><td align="center">2.048Mbps</td></tr><tr><td align="center">帧中继</td><td align="center">56kbps ~ 44.736Mbps</td></tr><tr><td align="center">光纤</td><td align="center">25.6Mbps ~ 2.46Gbps</td></tr><tr><td align="center">以太网</td><td align="center">10Mbps ~ 10Gbps</td></tr></tbody></table><ul><li>xDSL包括：HDSL,HDSL2,ADSL,RADSL,IDSL,SDSL,VDSL.</li><li>光纤接入网分为有源光网络（Active Optical Network,AON）和无源光网络（Passive Optical Network,PON）</li><li>FTTx包括：FTTB,FTTH,FTTC.</li><li>VLAN的划分方式：基于端口、基于MAC地址、基于网络层协议、基于IP多播、基于用户</li><li>防火墙主要功能：包过滤路由器（packet filtering router）和应用网关（application gateway）</li></ul><h2 id="第四章-智能建筑内的电话网"><a href="#第四章-智能建筑内的电话网" class="headerlink" title="第四章 智能建筑内的电话网"></a>第四章 智能建筑内的电话网</h2><h3 id="名词解释-3"><a href="#名词解释-3" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- CTI(Computer Telephony Integration):计算机电话集成- TTS(Test To Speech):文本到语音合成- ASR(Automatic Speech Recognition):自动语音识别- IVR(Interactive Voice Response):交互式语音应答</code></pre><h3 id="重点概念-3"><a href="#重点概念-3" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>我国采用PCM30,即2.048Mbps做为一次群（基群）的数据速率，同时传输30个话路，又称E1中继接口</li><li>PABX性能参数:容量、话务量（我国每用户话务量0.1Erl，中继0.7Erl，每次占用时长60s，中继90s）、呼损、中继接口类型</li><li>VoIP工作流程:数字编码（ITU-T G.711）—&gt;压缩添加地址、控制信息—&gt;IP传输—&gt;译码还原—&gt;转换语音</li><li>VoIP常用语音协议:H.323,SIP,MGCP（H.248）</li><li>H.323定义网络传输基本单元：终端（Terminal）、网关（Gateway）、网守（GateKeeper）、多点控制单元（Multipoint Control Unit,MCU）。</li></ul><h2 id="第五章-智能建筑内控制信号网络"><a href="#第五章-智能建筑内控制信号网络" class="headerlink" title="第五章 智能建筑内控制信号网络"></a>第五章 智能建筑内控制信号网络</h2><h3 id="名词解释-4"><a href="#名词解释-4" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- MS/TP:主从令牌传递网- BIBB(BACnet Interoperability Building Blocks):BACnet互操作基本模块- IA(Interoperability Area):互操作域- NRZ(Non Return to Zero)编码:不归零码- EIB(Electrical Installation Bus):电气安装总线- DALI(Digital Addressable Lighting Interface):数字可寻址照明接口- DBI(Digital Ballast Interface):数字电子整流器接口</code></pre><h3 id="重点概念-4"><a href="#重点概念-4" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>楼宇自控强势协议:BACnet,Ethernet,LonWorks,MODBUS,CAN,EIB/KNX,PROFIBUS,DeviceNet,DALI等。</li><li>BAS网络分为管理层、控制层、设备层</li><li>BAS两层网络架构：控制网络架构、信息网络架构。</li><li>BACnet是可裁剪的。</li><li>BACnet定义的是设备的外部特征，LonWorks定义的是控制器内部的指令集。</li><li>噪声是指系统中出现了非期望的电信号。</li><li>测控系统干扰及抑制方法</li></ul><table><thead><tr><th align="center">干扰形式</th><th align="center">抑制方法</th></tr></thead><tbody><tr><td align="center">串模干扰</td><td align="center">滤波器</td></tr><tr><td align="center">共模干扰</td><td align="center">变压器隔离、光电隔离、浮地屏蔽</td></tr><tr><td align="center">长线传输干扰<br/>外界干扰/信号延时干扰/信号反射干扰</td><td align="center">传输线缆阻抗匹配</td></tr></tbody></table><ul><li>BACnet应用层协议要素:对象（object），属性（property），服务（service）。</li><li>BACnet标准对象有28种，属性123种，服务35种，含报警和事件、文件访问、对象访问、远程设备管理、网络安全和虚拟终端。</li><li>LonWorks每个控制节点包括一片神经元芯片（NeuronChip）。</li><li>LonWorks优势:LonTalk协议开放，开发简单，拓扑灵活，编程易掌握。</li><li>CAN总线特点:无站地址编码；非破坏性仲裁技术；短帧结构；CRC校验；自动关闭总线功能；单点多点全局广播；最远10km/5kbps,最高速1Mbps/40m;NRZ编码；节点最高110个。</li><li>Modbus网络使用RS232C兼容接口，ASCII或RTU模式传输，LRC或CRC帧检测</li><li>EIB网络组织包括：线路（Line）,区域（Area）及系统（System）</li><li>EIB总线网络拓扑结构不允许环接</li><li>DALI数据采用曼彻斯特编码，速率1200bps，指令包括短地址、组地址、广播地址和专用命令。254级对数调光，范围0.1% ~ 100%。</li></ul><h2 id="第六章-智能建筑的综合布线技术"><a href="#第六章-智能建筑的综合布线技术" class="headerlink" title="第六章 智能建筑的综合布线技术"></a>第六章 智能建筑的综合布线技术</h2><h3 id="名词解释-5"><a href="#名词解释-5" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- GCS(Generic Cabling Syetem):综合布线系统- ToR(Top of Rack):机架顶部交换机</code></pre><h3 id="重点概念-5"><a href="#重点概念-5" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>100G以太网光纤布线，标准IEEE802.3ba</li></ul><table><thead><tr><th align="center">传输速率</th><th align="center">光纤类型</th><th align="center">传输距离</th><th align="center">应用标准</th><th align="center">MPO芯数</th></tr></thead><tbody><tr><td align="center">40G</td><td align="center">多模</td><td align="center">OM3 100m<br/>OM4 150m</td><td align="center">40GBASE-SR4<br/>100GBASE-SR10</td><td align="center">8芯<br/>20芯</td></tr><tr><td align="center">100G</td><td align="center">单模</td><td align="center">LR4 10km<br/>RE4 40km</td><td align="center">40GBASE-LR4/100GBASE-LR4<br/>100GBASE-RE4</td><td align="center">40GBASE-SR4 12芯<br/>100GBASE-SR10 24芯</td></tr></tbody></table><h2 id="第七章-建筑基本设备及其控制特性"><a href="#第七章-建筑基本设备及其控制特性" class="headerlink" title="第七章 建筑基本设备及其控制特性"></a>第七章 建筑基本设备及其控制特性</h2><h3 id="名词解释-6"><a href="#名词解释-6" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- GEHP(Gas Engineer Heat Pump):燃气发动机驱动热泵系统- CAV(Constant Air Volume):定风量控制- VAV(Variable Air Volume):变风量控制- EMS(Energy Management System):能量管理系统</code></pre><h3 id="重点概念-6"><a href="#重点概念-6" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>低压配电方案:放射式配电系统，树干式配电系统，混合式配电系统</li><li>自备发电机容量的选择:第一类保安型负荷；第二类保障型负荷；第三类一般负荷；自备发电机容量可取变压器总装机容量的10% ~ 20%。</li><li>自备发电机应在15s内启动并供电，若失败第二、第三次启动总计不大于30s;供电回复后不卸载运行5min后自动跳闸，再空载运行10min后自动停车</li><li>400V低压配电系统断路器的通/断控制有4种方式：手动操作、电动操作、远程操作和全自动控制</li><li>智能照明控制系统:奇胜C-BUS、ABB公司i-bus、邦奇的Dynalite、国际标准DALI系统</li></ul><table><thead><tr><th align="center">总线类型</th><th align="center">总线类型</th><th align="center">可控单元</th><th align="center">回路地址数</th><th align="center">距离</th><th align="center">支持公司</th></tr></thead><tbody><tr><td align="center">C-BUS</td><td align="center">二线制</td><td align="center">100个</td><td align="center">255个</td><td align="center">最远1000米</td><td align="center">邦奇</td></tr><tr><td align="center">i-bus</td><td align="center">四芯屏蔽双绞线</td><td align="center">15 * 15 * 64 =14400个</td><td align="center">-</td><td align="center">支线&lt;1000米，元件&lt;700米</td><td align="center">ABB</td></tr><tr><td align="center">DALI</td><td align="center">2芯电源，2芯屏蔽</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr></tbody></table><ul><li>空调系统分类：集中式空调、半集中空调、全分散系统</li><li>供水一般压力位300 ~ 350kPa,办公楼350 ~ 450kPa,最大静水压力不大于600kPa</li></ul><h2 id="第八章-设备自动化技术"><a href="#第八章-设备自动化技术" class="headerlink" title="第八章 设备自动化技术"></a>第八章 设备自动化技术</h2><h3 id="名词解释-7"><a href="#名词解释-7" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- DCS(Distributed Control System):集散控制系统- FCS(Fieldbus Control System):现场总线控制系统</code></pre><h3 id="重点概念-7"><a href="#重点概念-7" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>常用检测设备:电量检测、温度检测、适度检测、压力检测、液位检测、流量监测、照度检测、</li><li>常用执行器:电磁阀、电动阀、风门</li></ul><h2 id="第九章-智能建筑的安全防范技术"><a href="#第九章-智能建筑的安全防范技术" class="headerlink" title="第九章 智能建筑的安全防范技术"></a>第九章 智能建筑的安全防范技术</h2><h3 id="名词解释-8"><a href="#名词解释-8" class="headerlink" title="名词解释"></a>名词解释</h3><h3 id="重点概念-8"><a href="#重点概念-8" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>主流分辨率：D1（$704 \times 576$）、720P（$1280 \times 720$）、960P（$1280 \times 960$）、1080P（$1920 \times 1080$）、3MP（$2048 \times 1536$）、5MP（$2592 \times 1944$）</li></ul><h2 id="第十章-消防及联动控制技术"><a href="#第十章-消防及联动控制技术" class="headerlink" title="第十章 消防及联动控制技术"></a>第十章 消防及联动控制技术</h2><h3 id="名词解释-9"><a href="#名词解释-9" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- sprinkler system:自动喷水灭火系统</code></pre><h3 id="重点概念-9"><a href="#重点概念-9" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>消防系统设计，以人为本。</li></ul><table><thead><tr><th align="center">消防体系</th><th align="center">火灾自动报警设备<br/><br/><br/>灭火设备<br/><br/><br/>诱导避难设备</th><th align="center">火灾探测<br/>报警控制<br/>联动控制<br/><br/>喷水灭火装置<br/>气体灭火装置<br/>灭火辅助系统<br/><br/>避难信号指示系统<br/>避难场所</th></tr></thead></table><ul><li>火灾燃烧三要素，“火三角”：可燃物、氧化剂、引火源。</li><li>火灾探测器按输出信号分为阈值开关量和参数模拟量两类。</li><li>火灾探测器系统组成方式：多线制、总线制（树枝型、环形、链式）、区域火灾自动报警系统。</li><li>火灾探测器数量计算公式：$N = S / KA$，N为探测器数量，S为探测区域面积，A为探测保护面积，K为修正系数（特级0.7 ~ 0.8，一级0.8 ~ 0.9，二级0.9 ~ 1.0）</li><li>灭火基本原理：冷却、隔离、窒息、抑制</li><li>自动喷水灭火系统包括：</li></ul><table><thead><tr><th align="center">系统类型</th><th align="center">工作环境</th><th align="center">核心设备</th></tr></thead><tbody><tr><td align="center">湿式</td><td align="center">4℃ ~ 70℃</td><td align="center">闭式喷淋头、水流指示器、水力警铃、湿式报警阀、压力开关、报警控制器、消防水池</td></tr><tr><td align="center">干式</td><td align="center">低于4℃或高于70℃</td><td align="center">闭式喷头、管道系统、干式报警阀、报警装置、充气设备、排气设备、供水设备</td></tr><tr><td align="center">预作用</td><td align="center">-</td><td align="center">闭式喷头、管道系统、预作用阀组、报警装置、充气设备、供水设备</td></tr><tr><td align="center">雨淋自动喷水灭火系统</td><td align="center">适用于燃烧猛烈、蔓延迅速环境</td><td align="center">开式喷淋头、压力开关、水力警铃、雨淋阀、电磁阀、报警控制器、消防水池</td></tr><tr><td align="center">水幕系统</td><td align="center">-</td><td align="center">-</td></tr></tbody></table><ul><li>常用闭式喷头色标（动作温度/环境温度）：橙色（57/27），红色（68/38），黄色（79/49），绿色（93/63），蓝色（141/111）</li><li>七氟丙烷无毒，但七氟丙烷高温分解物质有毒</li></ul><h2 id="第十一章-智能建筑声频应用技术"><a href="#第十一章-智能建筑声频应用技术" class="headerlink" title="第十一章 智能建筑声频应用技术"></a>第十一章 智能建筑声频应用技术</h2><h3 id="名词解释-10"><a href="#名词解释-10" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- SPL(Sound Pressure Level):最大声压级- Emergency address system:紧急广播系统又称火灾应急广播系统</code></pre><h3 id="重点概念-10"><a href="#重点概念-10" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>最大声压级计算公式：$L_p = 20lg(P/P_o)$；P测量点声压，$P_o$基准声压；</li><li>临界反馈状态的最大系统增益再降6dB可获得最大可用声学增益，即稳定工作状态；一般传声增益值为-4 ~ -10dB；</li><li>声场不均匀度：一个优良的扩声系统听众区域最大和最小声压级差值不应大于8dB；</li><li>听音区总噪声一般要求35 ~ 50dB。</li><li>一般室内系统失真要求为3% ~ 8%。</li><li>一般语言清晰度大于80%。</li><li>音质主关评价术语：清晰、平衡、丰满、力度、圆润、融合、真实感、临场感</li><li>语言扩声按没平方米有效容积0.3W估算，音乐扩声时每立方米有效容积0.5W计算；</li><li>按最大声压级计算扬声器功率，功放功率储备：语言1.15倍以上，大型管弦乐1.5倍；</li><li>按平均声压级计算扬声器功率，功放功率储备：语言类3倍以上，音乐扩声10倍以上，大型管弦乐不少于15倍；</li><li>音控室面积大于15平方米；</li><li>紧急广播系统提倡纳入公共广播系统，兼容性系统始终出于完好正常工作状态，又可节省大量投资。</li><li>同声传译红外辐射器小功率（2 ~ 5W）覆盖距离5 ~ 7m,30 ~ 50m³；大功率覆盖30 ~ 40m，1000m³以上</li><li>智能会议系统：第一代，手拉手系统；第二代，数字控制，签到、发言、投票表决、同声传译和视像跟踪；第三代，全数字系统，多通道数字音频传输系统；  </li><li>CobraNet数据是不压缩音频数据流；采样率支持48kHz/96kHz,分辨率支持16b、20b和24b;默认模式48kHz/20b,音质可达广播级；</li><li>CobraNet数据包成为Bundle,一个Bundle包含8个20b数字音频数据，数据流达到8Mbps；100Mbps支持64路音频信号、1000Mbps支持640路音频数据；</li><li>CobraNet数据包不遵循以太网的CSMA/CD机制，会受网络波动影响，严重丢包声音断续；建议单独组网；如果混用需要交换机支持VLAN（IEEE 802.1q）、流量优先级划分（IEEE 802.1p）解决与计算机争流量的问题；</li></ul><h2 id="第十二章-智能建筑有线电视及视频应用技术"><a href="#第十二章-智能建筑有线电视及视频应用技术" class="headerlink" title="第十二章 智能建筑有线电视及视频应用技术"></a>第十二章 智能建筑有线电视及视频应用技术</h2><h3 id="名词解释-11"><a href="#名词解释-11" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- STB(Set Top Box):机顶盒- IRD(Integrated Receive Decoder):综合接收解码器- QAM(Quadrature Amplitude Modulation):正交幅度调制- MPEG(Moving Picture Experts Group):活动图像专家组- PES(Packed Elementary Stream):带包头的基本码流- VOD(Video on Demand):视频点播- RTP(Real Time Protocol):实时传输协议- RTCP(Real Time Control Protocol):实时控制协议</code></pre><h3 id="重点概念-11"><a href="#重点概念-11" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>平板显示器（FPD）分类：</li></ul><table><thead><tr><th align="center">发光原理</th><th align="center">名称</th></tr></thead><tbody><tr><td align="center">受光型</td><td align="center">液晶显示器件（LCD）<br/>电致变色显示器件（ECD）<br/>电泳显示器件（EPID）<br/>电陶瓷显示器件（PLZT）</td></tr><tr><td align="center">发光型</td><td align="center">等离子显示器件（PDP）<br/>真空荧光显示器件（VFD）<br/>电致发光显示器件（ELD和LED）<br/>场发射显示器件（FED）</td></tr></tbody></table><ul><li>投影显示：CRT投影、LCD投影（透射式/反射式）、DLP投影（反射式）、LCOS投影、光阀投影</li></ul><h2 id="第十三章-智能建筑系统集成技术"><a href="#第十三章-智能建筑系统集成技术" class="headerlink" title="第十三章 智能建筑系统集成技术"></a>第十三章 智能建筑系统集成技术</h2><h3 id="名词解释-12"><a href="#名词解释-12" class="headerlink" title="名词解释"></a>名词解释</h3><pre><code>- IIS(Intelligent Integrated System):智能化集成系统- OPC(OLE for Process Control):用于过程控制的OLE- ODBC(Open DataBase Connectivity):开放式数据库互联- OBIX(Open Building Information eXchange):开放式建筑信息交换</code></pre><h3 id="重点概念-12"><a href="#重点概念-12" class="headerlink" title="重点概念"></a>重点概念</h3><ul><li>系统集成面对的复杂局面：异构系统，不同厂家产品共存一个工程项目，专业化应用系统，多协议并存</li><li>系统集成平台（软件平台）包括：设施层（程序/应用）、通信层（协议/接口）、支撑层（底层框架/数据库）</li><li>智能建筑系统总体功能包括：设备级集成、系统级集成、经营管理级集成</li><li>OPC使用Variant的数据类型</li><li>以数据库做为信息集成的核心，可以有效解决异构的各个子系统进行信息集成和协同工作的问题</li><li>系统集成方法学:“总体规划，优先设计”，明确目标、平台和技术；“从上向下，分步实施”，子系统功能、方案须满足目标，优先完成子系统集成；</li></ul><h2 id="第十四章-建筑智能化项目管理方法"><a href="#第十四章-建筑智能化项目管理方法" class="headerlink" title="第十四章 建筑智能化项目管理方法"></a>第十四章 建筑智能化项目管理方法</h2><h3 id="名词解释-13"><a href="#名词解释-13" class="headerlink" title="名词解释"></a>名词解释</h3><h3 id="重点概念-13"><a href="#重点概念-13" class="headerlink" title="重点概念"></a>重点概念</h3>]]></content>
       
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
@@ -1056,9 +1052,7 @@
             
             <tag> 建筑智能化 </tag>
             
-            <tag> 读书笔记 </tag>
-            
-            <tag> 理论基础 </tag>
+            <tag> 弱电 </tag>
             
         </tags>
       
@@ -1113,14 +1107,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
@@ -1142,14 +1136,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
@@ -1204,14 +1198,14 @@
       
       <categories>
           
-          <category> 建筑智能化 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> 建筑智能化 </tag>
             
             <tag> 弱电 </tag>
             
